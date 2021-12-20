@@ -1,1 +1,1 @@
-Made by pulling in design ideas and inspiration from across the web. Feel free to repurpose anything if its useful :)
+My personal website. Live version is [here](abishrantpanday.com).
