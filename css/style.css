@@ -6,6 +6,10 @@ html {
 }
 ul.icons {
   cursor: default;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 ul.icons li {
@@ -128,10 +132,38 @@ body.home {
   .large {
     font-size: 5vw;
     text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    color: #000000;
+  }
+
+  .jetbrains {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    color: #000000;
+  }
+
+  .jetbrainsC {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    color: #000000;
+    display:flex;
+    padding-left: 1vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .plex {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    color: #000000;
   }
 
   .medium {
     font-size: 3vw;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
   }
 
 
@@ -151,10 +183,20 @@ body.home {
     font-size: 21px;
   }
 
+
+  .contact {
+    display: flex;
+    padding-left: vw;
+    font-size: 21px;
+  }
+
   .smol {
     font-size: 21px;
     padding: 0;
     margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    color: #000000;
   }
   
   article{
@@ -185,6 +227,8 @@ body.home {
     flex-direction: column;
     position: relative;
     user-select: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
   }
   
   ul#menu{
@@ -208,6 +252,8 @@ body.home {
   ul#proj li {
     padding-left: 0;
     margin-left: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
   }
 
   ul#proj li button {
@@ -271,6 +317,8 @@ body.home {
     flex-direction: column;
     position: relative;
     user-select: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
   }
   
   nav2 a:hover {
@@ -285,6 +333,8 @@ body.home {
     flex-direction: column;
     position: relative;
     user-select: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
   }
   
   nav3 a:hover {
@@ -299,6 +349,8 @@ body.home {
     flex-direction: column;
     position: relative;
     user-select: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
   }
   
   nav4 a:hover {
@@ -313,6 +365,8 @@ body.home {
     flex-direction: column;
     position: relative;
     user-select: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
   }
   
   nav5 a:hover {
