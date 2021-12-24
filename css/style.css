@@ -25,7 +25,6 @@ ul.icons a {
   border: 0;
 }
 body.home {
-    font-family: 'Oxygen', sans-serif;
     height: 100vh;
   }
   
@@ -220,17 +219,6 @@ body.home {
   
   /* ---------------------------    NAV     -------------------------------- */
   
-  nav {
-    margin-top: 20px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    user-select: none;
-    font-family: 'JetBrains Mono', monospace;
-    font-weight: 500;
-  }
-  
   ul#menu{
     list-style-type: none;
   }
@@ -260,8 +248,6 @@ body.home {
     padding-right: 2em;
   }
 
-
-
   /* ul {
     list-style: none;
   }
@@ -285,6 +271,41 @@ body.home {
     color: #000000;
   }
 
+  a.links1 {
+    font-size: 18px;
+    position: relative;
+    top: 8px;
+    color: #00bf8f;
+  }
+
+  a.links2 {
+    font-size: 18px;
+    position: relative;
+    top: 8px;
+    color: #4389A2;
+  }
+
+  a.links3 {
+    font-size: 18px;
+    position: relative;
+    top: 8px;
+    color: #ff6e7f;
+  }
+
+  a.links4 {
+    font-size: 18px;
+    position: relative;
+    top: 8px;
+    color: #F9D423;
+  }
+
+  a.links5 {
+    font-size: 18px;
+    position: relative;
+    top: 8px;
+    color: #808f9b;
+  }
+
   a.linksP {
     font-size: 21px;
     color: #88c6e7;
@@ -293,6 +314,59 @@ body.home {
   a.linksP:hover {
     color: #ff6e7f;
     text-decoration: none;
+  }
+
+  nav {
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    user-select: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    box-sizing: border-box;
+    transition: all .35s ease;
+  }
+
+  nav a {
+    padding: .6em 0em;
+  }
+
+  nav a::before,
+  nav a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+  }
+
+  nav a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #00bf8f;
+    border-right: 3px solid #00bf8f;
+    transform: translate(-100%, 50%);
+  }
+
+  nav a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #00bf8f;
+    border-left: 3px solid #00bf8f;
+    transform: translate(100%, -50%)
+  }
+
+  nav a:hover:before,
+  nav a:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
+  
+  
   }
 
   nav a:hover {
@@ -319,6 +393,46 @@ body.home {
     user-select: none;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 500;
+    box-sizing: border-box;
+    transition: all .35s ease;
+  }
+
+  nav2 a {
+    padding: .6em 0em;
+  }
+
+  nav2 a::before,
+  nav2 a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+  }
+
+  nav2 a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #4389A2;
+    border-right: 3px solid #4389A2;
+    transform: translate(-100%, 50%);
+  }
+
+  nav2 a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #4389A2;
+    border-left: 3px solid #4389A2;
+    transform: translate(100%, -50%)
+  }
+
+  nav2 a:hover:before,
+  nav2 a:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
   }
   
   nav2 a:hover {
@@ -328,6 +442,7 @@ body.home {
   
   nav3 {
     margin-top: 20px;
+    margin-top: 20px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -335,6 +450,46 @@ body.home {
     user-select: none;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 500;
+    box-sizing: border-box;
+    transition: all .35s ease;
+  }
+
+  nav3 a {
+    padding: .6em 0em;
+  }
+
+  nav3 a::before,
+  nav3 a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+  }
+
+  nav3 a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #ff6e7f;
+    border-right: 3px solid #ff6e7f;
+    transform: translate(-100%, 50%);
+  }
+
+  nav3 a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #ff6e7f;
+    border-left: 3px solid #ff6e7f;
+    transform: translate(100%, -50%)
+  }
+
+  nav3 a:hover:before,
+  nav3 a:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
   }
   
   nav3 a:hover {
@@ -351,6 +506,46 @@ body.home {
     user-select: none;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 500;
+    box-sizing: border-box;
+    transition: all .35s ease;
+  }
+
+  nav4 a {
+    padding: .6em 0em;
+  }
+
+  nav4 a::before,
+  nav4 a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+  }
+
+  nav4 a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #F9D423;
+    border-right: 3px solid #F9D423;
+    transform: translate(-100%, 50%);
+  }
+
+  nav4 a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F9D423;
+    border-left: 3px solid #F9D423;
+    transform: translate(100%, -50%)
+  }
+
+  nav4 a:hover:before,
+  nav4 a:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
   }
   
   nav4 a:hover {
@@ -367,6 +562,46 @@ body.home {
     user-select: none;
     font-family: 'JetBrains Mono', monospace;
     font-weight: 500;
+    box-sizing: border-box;
+    transition: all .35s ease;
+  }
+
+  nav5 a {
+    padding: .6em 0em;
+  }
+
+  nav5 a::before,
+  nav5 a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+  }
+
+  nav5 a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #808f9b;
+    border-right: 3px solid #808f9b;
+    transform: translate(-100%, 50%);
+  }
+
+  nav5 a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #808f9b;
+    border-left: 3px solid #808f9b;
+    transform: translate(100%, -50%)
+  }
+
+  nav5 a:hover:before,
+  nav5 a:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
   }
   
   nav5 a:hover {
@@ -384,15 +619,6 @@ body.home {
     margin-right: 10%;
     margin-bottom: 56px;
   } */
-  
-  h4.lable {
-    flex: 1;
-    font-size: 16px;
-    color: #b3bbc9;
-    font-family: 'Oxygen';
-    letter-spacing: 1.5px;
-    width: 200px;
-  }
   
   .content {
     flex: 4.5;
