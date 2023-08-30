@@ -238,7 +238,7 @@ body.home {
     display:flex;
     justify-content: center;
     align-items: center;
-    padding-left: 0vw;
+    padding-left: 3vw;
     font-size: 21px;
   }
 
@@ -390,6 +390,14 @@ body.home {
   a.smol-left {
     font-size: clamp(15px,1.2vw,50px);
     color: #88c6e7;
+    line-height: 1;
+    display: inline-block;
+  }
+
+  @media screen and (min-width=900px){
+    a.smol-left {
+      display: none;
+    }
   }
 
   a.smol-left:hover {
