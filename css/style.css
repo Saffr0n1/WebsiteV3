@@ -136,13 +136,48 @@ body.home {
     color: #000000;
   }
 
+  .title-large {
+    font-size: clamp(30px, 5vw, 100px);
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    color: #000000;
+  }
+
+  .title-medium {
+    font-size: clamp(25px, 3vw, 100px);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+  }
+
+  .medium-left {
+    font-size: clamp(25px, 2vmax, 50px);
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    color: #000000;
+  }
+
   .jetbrains {
+    /* font-size: 5vw; */
     font-family: 'JetBrains Mono', monospace;
     font-weight: 500;
     color: #000000;
   }
 
   .jetbrainsC {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    color: #000000;
+    display:flex;
+    padding-left: 1vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactEnd {
+    font-size: clamp(15px, 2.2vw, 100px);
     font-family: 'JetBrains Mono', monospace;
     font-weight: 500;
     color: #000000;
@@ -192,6 +227,15 @@ body.home {
 
   .smol {
     font-size: 21px;
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    color: #000000;
+  }
+
+  .smol-left {
+    font-size: clamp(15px,1.2vw,50px);
     padding: 0;
     margin: 0;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -308,11 +352,21 @@ body.home {
   }
 
   a.linksP {
-    font-size: 21px;
+    font-size: clamp(14px,1vw,50px);
     color: #88c6e7;
   }
 
   a.linksP:hover {
+    color: #ff6e7f;
+    text-decoration: none;
+  }
+
+  a.smol-left {
+    font-size: clamp(15px,1.2vw,50px);
+    color: #88c6e7;
+  }
+
+  a.smol-left:hover {
     color: #ff6e7f;
     text-decoration: none;
   }
@@ -665,6 +719,7 @@ body.home {
     position: relative;
     text-decoration: none;
     color: #000000;
+    font-size: clamp(20px, 2.2vw, 100px);
   }
 
   .fa-facebook:hover {
@@ -711,7 +766,7 @@ body.home {
 }
 
 .icon > .label {
-    display: none;
+    display: none;    
 }
 
 .icon.solid:before {
