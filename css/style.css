@@ -149,7 +149,7 @@ body.home {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
     color: #000000;
-    text-align: center;
+    text-align: left;
   }
 
   .medium-left {
@@ -157,6 +157,26 @@ body.home {
     font-family: 'JetBrains Mono', monospace;
     font-weight: 500;
     color: #000000;
+  }
+
+  .display-on-mobile {
+    height: clamp(100px, 15vmax, 200px);
+  }
+
+  @media screen and (min-width : 900px) {
+    .display-on-mobile{
+      display: none;
+    }
+  }
+
+  .hide-on-mobile {
+    height: clamp(100px, 15vmax, 200px);
+  }
+
+  @media screen and (max-width : 900px) {
+    .hide-on-mobile{
+      display: none;
+    }
   }
 
   .jetbrains {
@@ -250,13 +270,13 @@ body.home {
   
 
   #info-image{
-    margin-left: 5vw;
+    margin-left: clamp(10px, 5vw, 80px);
   }
   
   
   #profile-pic{
-    height: 300px; 
-    width: 300px;
+    height: clamp(200px, 15vmax, 500px); 
+    width: clamp(200px, 15vmax, 500px);
   }
   
 
