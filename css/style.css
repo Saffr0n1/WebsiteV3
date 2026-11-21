@@ -95,6 +95,16 @@ h1 {
 
 .intro p + p { margin-top: 1.25rem; }
 
+.intro-heading {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin-bottom: 1.5rem;
+}
+
+.intro-heading h1 { margin-bottom: 0; }
+.intro-heading .doodle { flex-shrink: 0; }
+
 .site-footer {
   display: flex;
   justify-content: space-between;
