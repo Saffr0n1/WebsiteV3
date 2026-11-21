@@ -33,6 +33,9 @@ The Penrose-triangle icon's vector source is `assets/favicon.svg`. The browser
 favicon is a transparent 32px PNG, with a 16/32/48px `favicon.ico` fallback and
 a 180px Apple touch icon. Both HTML pages declare the same icons.
 
+The shared accent is `#249b62`, matching `green` in `../resume/settings.typ`.
+It is defined as `--accent` in the CSS and used in the icon source.
+
 ## Publish
 
 Commit and push to `main`. GitHub Pages publishes the repository root
