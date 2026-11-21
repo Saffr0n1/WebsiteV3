@@ -15,6 +15,12 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 Open http://127.0.0.1:8000. Stop the server with Ctrl+C.
 
+The header and footer rules span up to 1088px; the reading column is capped
+at 768px. Body text stays at 18px on desktop and 16px on mobile. Headings,
+navigation, and the default body use Hack. For a proportional-body comparison,
+override `--font-body` with a system sans-serif stack; heading and navigation
+type remain unchanged.
+
 The résumé is a committed public snapshot, not a live link to private notes.
 After rebuilding it in the sibling `resume` project, refresh it with:
 
