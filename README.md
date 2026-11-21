@@ -25,9 +25,9 @@ cp ../resume/output/pdf/resume.pdf documents/resume.pdf
 The thesis is `documents/thesis.pdf`. The header's thotbot link opens the
 separate thotbotglitched blog; it is not built or managed here.
 
-The Penrose-triangle icon's vector source is `assets/favicon.svg`. Checked-in
-exports include a 32px PNG, a 180px Apple touch icon, and `favicon.ico` with
-16px, 32px, and 48px sizes. Both HTML pages declare the same icons.
+The Penrose-triangle icon's vector source is `assets/favicon.svg`. The browser
+favicon is a transparent 32px PNG, with a 16/32/48px `favicon.ico` fallback and
+a 180px Apple touch icon. Both HTML pages declare the same icons.
 
 ## Publish
 
