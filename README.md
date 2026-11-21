@@ -22,7 +22,11 @@ After rebuilding it in the sibling `resume` project, refresh it with:
 cp ../resume/output/pdf/resume.pdf documents/resume.pdf
 ```
 
-The thesis is `documents/thesis.pdf`. The header's thotbot link opens the
+Update the résumé link's `?v=` value in `index.html` when replacing the PDF
+so visitors fetch the new version immediately.
+
+The thesis remains at `documents/thesis.pdf`, currently unlinked from the
+homepage. The header's writing link opens the
 separate thotbotglitched blog; it is not built or managed here.
 
 The Penrose-triangle icon's vector source is `assets/favicon.svg`. The browser
